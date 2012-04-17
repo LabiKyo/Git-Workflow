@@ -246,7 +246,7 @@
 
 * **Rebase**
 
-    * rebase {,-i}
+    * `git rebase {,-i}`
 
         * pick, edit, squash, reword, fixup
 
@@ -254,13 +254,13 @@
 
         * split
 
-    * rebase {--abord,--continue}
+    * `git rebase {--abord,--continue}`
 
     * **never** rebase public branch
 
-    * (@) rebase --onto <newbase> <upstream> <branch>
+    * (@) `git rebase --onto <newbase> <upstream> <branch>`
 
-    * (@) filter-branch
+    * (@) `filter-branch`
 
         * remove binary files in history
 
@@ -268,11 +268,11 @@
 
 * Fetch
 
-    * pull == fetch + merge
+    * `pull` == `fetch` + `merge`
 
-    * fetch rebase
+    * `fetch` + `rebase`
 
-    * pull --rebase
+    * `git pull --rebase`
 
 * Auto Rebase
 
@@ -284,11 +284,11 @@
 
     * `git stash {,save <name>,save --patch <name>}`
 
-    * stash list
+    * `git stash list`
 
-    * stash {apply,apply --index,pop,clear,drop}
+    * `git stash {apply,apply --index,pop,clear,drop}`
 
-    * (@) stash branch
+    * (@) `git stash branch`
 
 * Remove Untracked Files
 
