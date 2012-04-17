@@ -20,9 +20,9 @@
 
     * ancestry reference
 
-        * HEAD^{,1,2}
+        * `HEAD^{,1,2}`
 
-        * HEAD~{,1,2,...}
+        * `HEAD~{,1,2,...}`
 
         * even more fancy -- HEAD~3^2
 
@@ -68,7 +68,7 @@
 
 * Commit early, commit often.
 
-* Always know where you are -- status and log
+* Always know where you are -- `status` and `log`
 
 ### Workflow
 
