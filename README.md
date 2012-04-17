@@ -26,11 +26,11 @@
 
         * even more fancy -- HEAD~3^2
 
-    * (*) reflog, can help with retrieving lost commits -- `HEAD@{<n>}`
+    * (@) reflog, can help with retrieving lost commits -- `HEAD@{<n>}`
 
-    * (*) `<branch1>..<branch2>`
+    * (@) `<branch1>..<branch2>`
 
-    * (*) `<branch1>...<branch2>`
+    * (@) `<branch1>...<branch2>`
 
 * Branch
 
@@ -226,7 +226,7 @@
 
     * `git diff <ref1>...<ref2>`
 
-    * (*) `git merge-base <branch1> <branch2>`
+    * (@) `git merge-base <branch1> <branch2>`
 
 * Reset
 
@@ -246,9 +246,9 @@
 
     * **never** rebase public branch
 
-    * (*) rebase --onto <newbase> <upstream> <branch>
+    * (@) rebase --onto <newbase> <upstream> <branch>
 
-    * (*) filter-branch
+    * (@) filter-branch
 
         * remove binary files in history
 
@@ -276,7 +276,7 @@
 
     * stash {apply,apply --index,pop,clear,drop}
 
-    * (*) stash branch
+    * (@) stash branch
 
 * Remove Untracked Files
 
@@ -286,9 +286,9 @@
 
 * Submodule
 
-    * (*) add, init, update
+    * (@) add, init, update
 
-    * (*) alternative: subtree merging
+    * (@) alternative: subtree merging
 
 * Blame
 
