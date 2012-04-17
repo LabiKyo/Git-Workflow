@@ -192,7 +192,7 @@
 
 ## Open Project Workflow
 
-> Open project means large public projects, including all kinds of software engineering. I searched for article about this kind of workflow but didn't get a perfect answer. So below is just my personal opinion, may be unrealistic and need improvement for sure. I'm **not experienced in this workflow**.
+Open project means large public projects, including all kinds of software engineering. I searched for article about this kind of workflow but didn't get a perfect answer. So below is just my personal opinion, may be unrealistic and need improvement for sure. I'm **not experienced in this workflow**.
 
 ### Principle
 
