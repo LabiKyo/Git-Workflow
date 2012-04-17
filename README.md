@@ -130,6 +130,7 @@
 2. Clean, linear commit history, no merge commit, no checkpoint commit.
 3. Every commit is atomic and well documented with commit message, good for `bisect` and **code review**.
 4. Every commit is deployable, good for **rollback**.
+
 ### Recipe
 
 * Switch Branch
