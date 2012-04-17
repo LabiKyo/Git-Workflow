@@ -100,7 +100,7 @@
 
     * `git diff {--cache,<ref>}`
 
-    * `git diff --check` for trailing whitespace (optional, better to setup your editor)
+    * `git diff --check` for trailing whitespace **(optional, better to setup your editor)**
 
 * Commit
 
@@ -118,7 +118,7 @@
 
         * explain your motivation for the change and contrast its implementation with previous behaviour
 
-        * use commands like 'add something' instead of 'I added something'   * commit guidelines <http://progit.org/book/ch5-2.html>
+        * use commands like 'add something' instead of 'I added something'
 
 * Revert
 
@@ -188,13 +188,15 @@
 
 * **Never** develop on public branch
 
-* Private branch == draft: "Great books aren’t written– they’re rewritten." By Michael Crichton
+* Private branch == draft
+
+    > "Great books aren’t written– they’re rewritten." Michael Crichton
 
 ### Workflow
 
-1. To work on a new feature, create a descriptively named feature branch off of master.
+1. To work on a new feature, create a descriptively named **feature branch** off of master.
 
-2. Commit to that branch locally and regularly push your work to the same named branch on the server. (Push to server is optional: up to you)
+2. Commit to that branch locally and regularly push your work to the same named branch on the server. *(Push to server is optional: up to you)*
 
 3. When you finish that feature, rewrite commit history using reset/rebase/squash or amend to make every commit atomic and reasonable, remove all checkpoint commit and rebase onto master.
 
@@ -204,17 +206,17 @@
 
 6. Remove remote and local branch.
 
-7. For fixing bugs, you may want to simplify the process using auto rebase. (optional)
+7. *For fixing bugs, you may want to simplify the process using **auto rebase**. (optional)*
 
 ### Why?
 
-1. Using branch, parallel developing, good for hotfix.
+1. Using branch, parallel developing, good for **hotfix**.
 
 2. Clean, linear commit history, no merge commit, no checkpoint commit.
 
-3. Every commit is atomic and well documented with commit message, good for `bisect` and code review.
+3. Every commit is atomic and well documented with commit message, good for `bisect` and **code review**.
 
-4. Every commit is deployable, good for rollback.
+4. Every commit is deployable, good for **rollback**.
 
 ### Recipe
 
@@ -304,8 +306,6 @@
 
     * `git blame -L <from>,<to> path/to/file`
 
-    * `git blame -C`
-
     * ignore whitespace -- `git blame -w`
 
 * Binary Search
@@ -332,7 +332,7 @@
 
 ## Open Project Workflow
 
-    > Open project means large public projects, including all kinds of software engineering. I searched for article about this kind of workflow but didn't get a perfect answer. So below is just my personal opinion, may be unrealistic and need improvement for sure. I'm **not experienced in this workflow**.
+> Open project means large public projects, including all kinds of software engineering. I searched for article about this kind of workflow but didn't get a perfect answer. So below is just my personal opinion, may be unrealistic and need improvement for sure. I'm **not experienced in this workflow**.
 
 ### Principle
 
@@ -362,7 +362,7 @@
 
     * `git apply {,--check } <patch-file>`
 
-    * am == apply + commit
+    * `am` == `apply` + `commit`
 
 * Cherry-Pick
 
