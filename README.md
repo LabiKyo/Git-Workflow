@@ -100,6 +100,8 @@
 
     * `git diff {--cache,<ref>}`
 
+    * `git diff --check` for trailing whitespace (optional, better to setup your editor)
+
 * Commit
 
     * `git commit -m`
@@ -109,6 +111,14 @@
     * `git commit --amend{, -C HEAD}`
 
     * commit guidelines <http://progit.org/book/ch5-2.html>
+
+        * start with a single line that’s no more than about 50 characters and that describes the changeset concisely
+
+        * followed by a blank line, followed by a more detailed explanation
+
+        * explain your motivation for the change and contrast its implementation with previous behaviour
+
+        * use commands like 'add something' instead of 'I added something'   * commit guidelines <http://progit.org/book/ch5-2.html>
 
 * Revert
 
@@ -322,7 +332,7 @@
 
 ## Open Project Workflow
 
-    Open project means large public projects, including all kinds of software engineering. I searched for article about this kind of workflow but didn't get a perfect answer. So below is just my personal opinion, may be unrealistic and need improvement for sure. I'm **not experienced in this workflow**.
+    > Open project means large public projects, including all kinds of software engineering. I searched for article about this kind of workflow but didn't get a perfect answer. So below is just my personal opinion, may be unrealistic and need improvement for sure. I'm **not experienced in this workflow**.
 
 ### Principle
 
