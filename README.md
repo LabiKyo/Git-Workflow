@@ -24,7 +24,7 @@
 
         * `HEAD~{,1,2,...}`
 
-        * even more fancy -- HEAD~3^2
+        * even more fancy -- `HEAD~3^2`
 
     * (@) reflog, can help with retrieving lost commits -- `HEAD@{<n>}`
 
